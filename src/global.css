@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Vilane';
+    src: url('/src/assets/fonts/Vilane-Regular.ttf') format('truetype'); /* Corrigido o formato */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pirulen';
+    src: url('/src/assets/fonts/pirulen rg.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --green: #96D162;
+
+    --vilane: 'Vilane', sans-serif; 
+    --pirulen: 'Pirulen', sans-serif;
+}
+
+:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 2px var(--green-500);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #353535;
+    color: var(--black);
+}
+
+body, input, textarea, button {
+    font-family: var(--vilane);
+    font-weight: 400;
+    font-size: 1rem;
+}
+

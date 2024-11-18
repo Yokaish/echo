@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Vilane';
-    src: url('/src/assets/fonts/Vilane-Regular.ttf') format('truetype'); /* Corrigido o formato */
+    src: url('/src/assets/fonts/foonts.com-Vilane_Regular.ttf') format('truetype'); /* Corrigido o formato */
     font-weight: normal;
     font-style: normal;
 }
@@ -12,13 +12,50 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Brinnan Light';
+    src: url('/src/assets/fonts/Brinnan Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brinnan Regular';
+    src: url('/src/assets/fonts/Brinnan Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MINDCONTROL';
+    src: url('/src/assets/fonts/MINDCONTROL.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono NL Light Italic';
+    src: url('/src/assets/fonts/JetBrainsMonoNL-LightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
 :root {
     --white: #ffffff;
     --black: #000000;
     --green: #96D162;
 
     --vilane: 'Vilane', sans-serif; 
+
     --pirulen: 'Pirulen', sans-serif;
+
+    --brinnan-300: 'Brinnan Light', sans-serif;
+    --brinnan-400: 'Brinnan Regular', sans-serif;
+
+    --mind-control: 'MINDCONTROL', sans-serif;
+
+    --jet-brains: 'JetBrains Mono NL Light Italic', sans-serif;
 }
 
 :focus {

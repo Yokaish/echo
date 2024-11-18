@@ -5,6 +5,8 @@
     flex-direction: column;
     background-image: url('../../assets/img/main-background.jpg');
     background-size: cover;
+    background-attachment: fixed; /* Parallax fixo */
+    background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat;
     height: 100vh;
     position: relative;

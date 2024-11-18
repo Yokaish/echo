@@ -1,0 +1,57 @@
+.whyContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 2rem;
+}
+
+.whyContainer h2 {
+    font-family: var(--mind-control);
+    font-size: 4rem;
+}
+
+.numberContainer {
+    display: flex;
+    align-items: center;
+}
+
+.numberContainer > div {
+    text-align: center;
+    width: 8rem;
+}
+
+.numberContainer > div span {
+    font-family: var(--mind-control);
+    font-size: 8rem;
+}
+
+.italic {
+    font-family: var(--jet-brains);
+    font-size: 1.25rem;
+}
+
+.italic span {
+    color: var(--green);
+}
+
+.paragraph {
+    font-family: var(--brinnan-300);
+    font-size: 1.25rem;
+}
+
+.paragraph span {
+    font-family: var(--brinnan-400);
+    color: var(--green);
+}
+
+
+.spaceOne {
+    margin-left: 1rem; 
+}
+
+.spaceTwo {
+    margin-left: 2rem; 
+}

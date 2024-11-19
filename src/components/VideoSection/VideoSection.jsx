@@ -2,7 +2,7 @@ import styles from './VideoSection.module.css'
 
 export function VideoSection() {
     return (
-        <div className={styles.video}>
+        <div className={styles.video} id='video'>
             <span className={styles.phrase}>CHECK IT OUT</span>
             <iframe 
                 width="560" 

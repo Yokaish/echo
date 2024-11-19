@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Vilane';
-    src: url('/src/assets/fonts/foonts.com-Vilane_Regular.ttf') format('truetype'); /* Corrigido o formato */
+    src: url('/src/assets/fonts/Vilane_Regular.ttf') format('truetype'); /* Corrigido o formato */
     font-weight: normal;
     font-style: normal;
 }

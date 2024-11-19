@@ -39,7 +39,11 @@
     font-size: 1.25rem;
 }
 
+/* Ajuste para dispositivos móveis */
 @media (max-width: 768px) {
+    .mainSection {
+        background-attachment: scroll; /* Remove o efeito parallax no mobile */
+    }
 
     .titleDiv h1 {
         flex-wrap: wrap;
@@ -56,5 +60,4 @@
     .bottomText {
         font-size: 1rem;
     }
-
 }

@@ -3,7 +3,7 @@ import styles from './WhySection.module.css'
 export function WhySection() {
     return (
         <section className={styles.whyContainer}>
-            <h2>WHY ECCO?</h2>
+            <h2>WHY ECHO?</h2>
             <div>
 
                 <div className={styles.numberContainer}>

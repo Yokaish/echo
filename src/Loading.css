@@ -1,0 +1,31 @@
+/* Loading.css */
+
+.loading-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #000000; /* Fundo preto */
+    position: fixed; /* Garante que ocupa a tela inteira */
+    top: 0;
+    left: 0;
+    z-index: 9999; /* Fica acima de todos os elementos */
+  }
+  
+  .loading-logo {
+    width: 4rem; /* Tamanho da logo */
+    animation: pulse 1.5s infinite ease-in-out; /* Animação sutil */
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+  }
+  

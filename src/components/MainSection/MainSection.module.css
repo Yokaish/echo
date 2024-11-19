@@ -10,6 +10,7 @@
     background-repeat: no-repeat;
     height: 100vh;
     padding: 1rem;
+    transition: background-position 0.2s ease-in-out; /* Suaviza a mudança do fundo */
 }
 
 .titleDiv {

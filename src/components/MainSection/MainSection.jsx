@@ -2,7 +2,7 @@ import styles from './MainSection.module.css';
 
 export function MainSection() {
     return (
-        <main className={styles.mainSection} id='inicio'>
+        <section className={styles.mainSection} id='inicio'>
             <div className={styles.titleDiv}>
                 <h1>ECHO SOLUTIONS</h1>
                 <p>
@@ -12,6 +12,6 @@ export function MainSection() {
             <p className={styles.bottomText}>
                 Porque o amanhã começa <br /> com o que você faz hoje
             </p>
-        </main>
+        </section>
     );
 }

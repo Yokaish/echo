@@ -36,7 +36,7 @@ export function Header() {
                         ${isVisible ? styles.visible : styles.hidden} 
                         ${isScrolled ? styles.scrolled : ''}`}
         >
-            <a href="#inicio"><img src={logo} alt="Echo Logo" /></a>
+            <a href="#inicio"><img src={logo} loading="lazy" alt="Echo Logo" /></a>
 
             <HamburguerMenu />
 

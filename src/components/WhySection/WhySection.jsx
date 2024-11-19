@@ -11,9 +11,9 @@ export function WhySection() {
                         <span>1</span>
                     </div>
                     <p className={styles.paragraph}>
-                        <span>{'{*'}</span> Echo monitora, ajusta <br />
-                        <span className={styles.spaceTwo}></span>e recompensa seu consumo de <br />
-                        <span className={styles.spaceOne}></span>energia em tempo real<span>{'_'}</span>
+                        <span>{'{*'}</span> Echo <strong>monitora, ajusta</strong> <br />
+                        <span className={styles.spaceTwo}></span>e <strong>recompensa</strong> seu consumo de <br />
+                        <span className={styles.spaceOne}></span>energia em <strong>tempo real</strong><span>{'_'}</span>
                     </p>
 
 
@@ -34,7 +34,7 @@ export function WhySection() {
                         <span>3</span>
                     </div>
                     <p className={styles.paragraph}>
-                        <span>{'<'}</span>Echo<br />
+                        <span>{'<'}</span><strong>Echo</strong><br />
                         <span className={styles.spaceTwo}></span>innovation={'{'}<span>{'true'}</span>{'}'}<br />
                         <span>{'/>'}</span>
                     </p>

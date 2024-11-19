@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.footer p {
+    color: var(--white);
+    font-family: var(--brinnan-300);
+    font-size: 1rem;
+}
+
+.footer p span {
+    color: var(--green);
+}
+
+.spaceOne {
+    margin-left: 1rem; 
+}
+
+.spaceTwo {
+    margin-left: 2rem; 
+}
+

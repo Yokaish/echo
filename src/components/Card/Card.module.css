@@ -1,0 +1,8 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    width: 12.5rem;
+    background-color: var(--green);
+}

@@ -1,0 +1,51 @@
+.interface {
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.25rem;
+    padding: 0 2rem 4rem 2rem;
+}
+
+.interface p {
+    font-family: var(--jet-brains);
+    font-size: 1.5rem;
+}
+
+.interface p > span {
+    color: var(--green);
+}
+
+.phrase {
+    font-family: var(--mind-control);
+    font-size: 4rem;
+}
+
+.swiperWrapper {
+    display: flex;
+    width: 70%;
+}
+
+@media (max-width: 768px) {
+    .swiperWrapper {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .swiperWrapper {
+        width: 100%;
+    }
+
+    .interface p {
+        font-size: 1.25rem;
+    }
+
+    .phrase {
+        font-size: 3rem;
+    }
+
+}
+

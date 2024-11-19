@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
 import logo from '../../assets/icons/echo-logo.svg';
 import styles from './Header.module.css';
+import HamburguerMenu from '../HamburguerMenu/HamburguerMenu';
 
 export function Header() {
+    
     const [isVisible, setIsVisible] = useState(true); // Controla visibilidade do header
     const [isScrolled, setIsScrolled] = useState(false); // Controla background do header
     const [lastScrollY, setLastScrollY] = useState(0); // Rastreia posição do scroll
@@ -19,7 +21,7 @@ export function Header() {
             }
 
             // Adiciona background ao rolar mais de 50px
-            setIsScrolled(currentScrollY > 50);
+            setIsScrolled(currentScrollY > 200);
 
             setLastScrollY(currentScrollY);
         };
@@ -34,11 +36,14 @@ export function Header() {
                         ${isVisible ? styles.visible : styles.hidden} 
                         ${isScrolled ? styles.scrolled : ''}`}
         >
-            <img src={logo} alt="Echo Logo" />
-            <nav>
-                <a className={styles.navOption} href="#tag">início</a>
-                <a className={styles.navOption} href="#tag">interface</a>
-                <a className={styles.borderAnchor} href="#tag">vídeo</a>
+            <a href="#inicio"><img src={logo} alt="Echo Logo" /></a>
+
+            <HamburguerMenu />
+
+            <nav className={styles.navigation}>
+                <a className={styles.navOption} href="#inicio">início</a>
+                <a className={styles.navOption} href="#interface">interface</a>
+                <a className={styles.borderAnchor} href="#video">vídeo</a>
             </nav>
         </header>
     );

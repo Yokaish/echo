@@ -1,0 +1,39 @@
+.inoveContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    background-color: var(--white);
+    padding: 0 2rem 4rem 2rem;
+}
+
+.inoveContainer img {
+    max-width: 100%; /* A imagem não excede a largura do contêiner */
+    height: auto;    /* Mantém a proporção da imagem */
+    object-fit: cover; /* Garante que a imagem se ajuste bem ao espaço definido */
+    border-radius: 0.5rem; /* Opcional: arredonda os cantos da imagem */
+}
+
+
+.inoveContainer p {
+    font-family: var(--brinnan-300);
+    font-size: 1.5rem;
+}
+
+.inoveContainer span {
+    font-family: var(--brinnan-400);
+    color: var(--green);
+}
+
+.spaceTwo {
+    margin-left: 2rem; 
+}
+
+@media (max-width: 768px) {
+    .inoveContainer p {
+        font-family: var(--brinnan-300);
+        font-size: 1.25rem;
+    }
+ }

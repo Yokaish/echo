@@ -1,0 +1,53 @@
+/* Estilo do Swiper */
+.swiper {
+    padding: 0 2rem 2rem 2rem;
+    height: 100%; /* Assegura que o Swiper ocupe toda a altura disponível */
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Ajustando a distância entre a paginação e o conteúdo */
+.swiper-pagination {
+    margin-top: 30px; /* Ajuste a distância superior conforme necessário */
+}
+
+/* Estilo para as bolinhas de paginação ativas */
+/* Estilo para as bolinhas de paginação (quadradas) */
+.swiper-pagination-bullet {
+    background-color: #ccc; /* Cor padrão */
+    width: 8px; /* Largura */
+    height: 8px; /* Altura */
+    border-radius: 0; /* Remover borda arredondada, deixando quadrado */
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para a bolinha de paginação ativa */
+.swiper-pagination-bullet-active {
+    background-color: #000000; /* Cor da bolinha ativa */
+}
+
+/* Estilos para os botões de navegação */
+.swiper-button-prev, .swiper-button-next {
+    color: #718096;  /* Cor dos botões de navegação */
+}
+
+/* Estilo da navegação para tornar os botões visíveis e centrados */
+.swiper-button-prev, .swiper-button-next {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centralizando as bolinhas da paginação (opcional) */
+.swiper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

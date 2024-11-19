@@ -2,7 +2,7 @@ import styles from './MainSection.module.css';
 
 export function MainSection() {
     return (
-        <main className={styles.mainSection}>
+        <main className={styles.mainSection} id='inicio'>
             <div className={styles.titleDiv}>
                 <h1>ECHO SOLUTIONS</h1>
                 <p>

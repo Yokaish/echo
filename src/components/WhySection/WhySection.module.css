@@ -4,7 +4,7 @@
     background-color: var(--white);
     justify-content: center;
     align-items: center;
-    padding: 2rem 0;
+    padding: 4rem 1rem;
     gap: 2rem;
 }
 
@@ -49,9 +49,24 @@
 
 
 .spaceOne {
-    margin-left: 1rem; 
+    margin-left: 1rem;
 }
 
 .spaceTwo {
     margin-left: 2rem; 
+}
+
+@media (max-width: 728px) {
+    .whyContainer h2 {
+        font-size: 2.5rem;
+    }
+
+    .paragraph, .italic {
+        font-size: 1rem;
+    }
+
+    .numberContainer > div span {
+        font-family: var(--mind-control);
+        font-size: rem;
+    }
 }

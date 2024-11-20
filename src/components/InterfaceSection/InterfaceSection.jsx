@@ -39,7 +39,7 @@ export function InterfaceSection() {
     };
 
     const images = [
-        assisImg, dashImg, memImg, relImg
+        dashImg, relImg, assisImg, , memImg, 
     ]
 
     return (

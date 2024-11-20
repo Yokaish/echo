@@ -1,6 +1,6 @@
 /* Estilo do Swiper */
 .swiper {
-    padding: 0 2rem 2rem 2rem;
+    padding: 0 0 2rem 0;
     height: 100%; /* Assegura que o Swiper ocupe toda a altura disponível */
 }
 

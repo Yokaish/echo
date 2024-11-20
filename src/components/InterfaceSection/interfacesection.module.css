@@ -6,12 +6,12 @@
     flex-direction: column;
     width: 100%;
     gap: 1.25rem;
-    padding: 1.5rem 2rem 3rem 2rem;
+    padding: 1.5rem 1rem;
 }
 
 .interface p {
     font-family: var(--jet-brains);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .interface p > span {
@@ -20,18 +20,20 @@
 
 .phrase {
     font-family: var(--mind-control);
-    font-size: 4rem;
+    font-size: 3rem;
+    text-align: center;
 }
 
 .swiperWrapper {
     display: flex;
-    width: 70%;
+    width: 60%;
 }
 
-@media (max-width: 768px) {
-    .swiperWrapper {
-        width: 100%;
-    }
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 
 @media (max-width: 1024px) {
@@ -40,12 +42,20 @@
     }
 
     .interface p {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     .phrase {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
-
 }
 
+@media (max-width: 768px) {
+    .swiperWrapper {
+        width: 100%;
+    }
+
+    .phrase {
+        font-size: 2rem;
+    }
+}

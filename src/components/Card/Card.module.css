@@ -1,8 +1,7 @@
-.card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25rem;
-    width: 12.5rem;
-    background-color: var(--green);
+.image {
+    height: auto; /* Ajusta a altura automaticamente ao conteúdo */
+    max-height: 700px; /* Limita a altura máxima */
+    width: 100%; /* Ocupar toda a largura do container */
+    object-fit: cover; /* Ajusta a imagem proporcionalmente, cortando se necessário */
 }
+

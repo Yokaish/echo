@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import logo from '../../assets/icons/echo-logo.svg';
 import styles from './Header.module.css';
 import HamburguerMenu from '../HamburguerMenu/HamburguerMenu';
+import { debounce } from 'lodash'; // Instale lodash para usar debounce
+
 
 export function Header() {
     
@@ -10,7 +12,7 @@ export function Header() {
     const [lastScrollY, setLastScrollY] = useState(0); // Rastreia posição do scroll
 
     useEffect(() => {
-        const handleScroll = () => {
+        const handleScroll = debounce(() => {
             const currentScrollY = window.scrollY;
 
             // Verifica se o usuário rolou para baixo ou para cima
@@ -24,7 +26,7 @@ export function Header() {
             setIsScrolled(currentScrollY > 200);
 
             setLastScrollY(currentScrollY);
-        };
+        }, 100); // Limita a execução a cada 100ms
 
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
@@ -36,7 +38,7 @@ export function Header() {
                         ${isVisible ? styles.visible : styles.hidden} 
                         ${isScrolled ? styles.scrolled : ''}`}
         >
-            <a href="#inicio"><img src={logo} loading="lazy" alt="Echo Logo" /></a>
+            <a href="#inicio"><img src={logo} alt="Echo Logo" /></a>
 
             <HamburguerMenu />
 

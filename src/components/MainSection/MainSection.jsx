@@ -1,6 +1,13 @@
+import { useEffect } from 'react';
 import styles from './MainSection.module.css';
 
 export function MainSection() {
+    useEffect(() => {
+        // Pré-carregando a imagem
+        const img = new Image();
+        img.src = '../../assets/img/main-background-min.webp';
+    }, []);
+
     return (
         <section className={styles.mainSection} id='inicio'>
             <div className={styles.titleDiv}>

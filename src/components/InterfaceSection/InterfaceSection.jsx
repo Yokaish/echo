@@ -11,6 +11,8 @@ import assisImg from '../../assets/img/ASSISTENTE.png';
 import dashImg from '../../assets/img/DASHBOARD.png';
 import memImg from '../../assets/img/MEMBROS.png';
 import relImg from '../../assets/img/RELATORIOS.png';
+import camImg from '../../assets/img/CAMERAS.png';
+
 
 
 export function InterfaceSection() {
@@ -39,7 +41,7 @@ export function InterfaceSection() {
     };
 
     const images = [
-        dashImg, relImg, assisImg, , memImg, 
+        dashImg, relImg, assisImg, , memImg, camImg 
     ]
 
     return (

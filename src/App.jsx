@@ -9,6 +9,7 @@ import { WhySection } from './components/WhySection/WhySection';
 import './global.css';
 import './Loading.css';
 import logo from './assets/icons/echo-logo.svg'; // Importa a logo
+import { EchoInfo } from './components/EchoInfo/EchoInfo';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -39,6 +40,7 @@ function App() {
       <WhySection />
       <InoveSection />
       <InterfaceSection />
+      <EchoInfo/>
       <Footer />
     </div>
   );

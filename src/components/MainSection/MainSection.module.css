@@ -5,11 +5,11 @@
     flex-direction: column;
     background-image: url('../../assets/img/main-background-min.webp');
     background-size: cover;
-    background-position: center; /* Centraliza a imagem */
+    background-position: top center; /* Mantém a posição fixa no topo e centralizada */
     background-repeat: no-repeat;
     height: 100vh;
     padding: 1rem;
-    transition: background-position 0.2s ease-in-out; /* Suaviza a mudança do fundo */
+    transition: none; /* Remove a transição para evitar reprocessamento ao carregar */
 }
 
 .titleDiv {
